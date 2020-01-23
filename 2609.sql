@@ -1,0 +1,1 @@
+SELECT cat.name, SUM(amount) FROM products AS prod, categories AS cat WHERE prod.id_categories = cat.id GROUP BY cat.name HAVING SUM(amount)>0;

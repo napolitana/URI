@@ -1,0 +1,1 @@
+SELECT Prod.name, Emp.name FROM products AS Prod, categories AS Cat, providers AS Emp WHERE Prod.id_categories=Cat.id AND Cat.Id=6 AND Prod.id_providers=Emp.id 
