@@ -1,0 +1,1 @@
+SELECT name, length(name) AS Length FROM people ORDER BY length(name) DESC
